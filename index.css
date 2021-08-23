@@ -1,6 +1,6 @@
 .container-div{
     box-shadow: 0 0 1px rgb(82, 63, 63);
-    margin: 2%;
+    margin: 5% 15%;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -13,8 +13,15 @@
     margin-bottom: 1%;
 }
 
+.header-img-div{
+    height: 250px;
+}
+
 .header-img {
     width: 100%;
+    height: 250px;
+    display: none;
+    object-fit: cover;
 }
 
 .text-div{
@@ -22,24 +29,29 @@
     padding: 0 15px;
     text-align: justify;
     color: rgb(59, 58, 58);
+    font-size: 14px;
 }
 
 .cards-countainer-div{
     margin: 2% 0;
     padding: 0 15px;
+    height: 300px;
+    overflow: scroll;
+
 }
 
 .club-card{
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 1px rgb(82, 63, 63);
-    margin-top: 1%;
+    margin: 1% 0;
 }
 
 .club-card:hover{
     box-shadow: 0 0 3px rgb(82, 63, 63);
     cursor: pointer;
 }
+
 
 .club-card-header{
     color: white;
@@ -69,8 +81,15 @@
     width: 100%;
     text-align: justify;
     margin: 0 1%;
+    font-size: 14px;
 }
 
 .info-text-names{
     margin-top: 3%;
+}
+
+/* animation */
+
+.unhide{
+    display: block;
 }
