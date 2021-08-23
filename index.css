@@ -37,7 +37,7 @@
     padding: 0 15px;
     height: 300px;
     overflow: scroll;
-
+    overflow-x: hidden;
 }
 
 .club-card{
