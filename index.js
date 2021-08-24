@@ -18,3 +18,8 @@ $('.pdc').hover(
     function(){ $(".default-image").addClass("unhide");
     $(".pdc-image").removeClass("unhide")  }
 )
+
+/*added*/
+$('.carousel').carousel({
+    interval : 2000
+})

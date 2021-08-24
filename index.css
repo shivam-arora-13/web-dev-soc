@@ -88,6 +88,12 @@
     margin-top: 3%;
 }
 
+/* added */
+.d-block-w-100 {
+    width:640px;
+    height:250px;
+  }
+
 /* animation */
 
 .unhide{
